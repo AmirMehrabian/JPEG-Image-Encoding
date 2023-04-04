@@ -1,4 +1,4 @@
-# JPEG-Image-Encoding
+# JPEG Image Encoding and Compression
 This repository contains code for implementation of JPEG based on [1][2]. It performs blocking of the image, DCT transform, quantization, zigzag scan, categorization, DC difference, run-level encoding, and entropy coding to achieve image compression.\
 The notebook "**JPEG_Image_Encoding_and_Compression.ipynb**" contains the implementation of JPEG compression. The amount of compression is determined by the scaler variable. A larger scaler value results in a more blocky image with fewer details but better compression.\
 The Huffman encoding table is stored in the "**codebook.npy**" file. The "**JPEGtools.py**" module contains the necessary functions for the JPEG compression algorithm.
